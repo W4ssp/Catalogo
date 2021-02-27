@@ -1,0 +1,9 @@
+C:\Users\teban\source\repos\Catalogo\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\teban\source\repos\Catalogo\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\teban\source\repos\Catalogo\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\teban\source\repos\Catalogo\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\teban\source\repos\Catalogo\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\teban\source\repos\Catalogo\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\teban\source\repos\Catalogo\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\teban\source\repos\Catalogo\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\teban\source\repos\Catalogo\CapaDatos\obj\Debug\CapaDatos.pdb

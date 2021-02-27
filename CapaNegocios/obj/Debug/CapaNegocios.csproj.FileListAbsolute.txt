@@ -1,0 +1,11 @@
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaEntidades.dll
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\bin\Debug\CapaEntidades.pdb
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\teban\source\repos\Catalogo\CapaNegocios\obj\Debug\CapaNegocios.pdb

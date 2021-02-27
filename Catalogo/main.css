@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+#abrigo_general{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#contenido-izq{
+    float: left;
+    width: 195px;
+    height: 660px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 5px;
+    background: #eee;
+    margin-right: 100px;
+    overflow-y: scroll;
+}
+
+#contenido-der{
+    height: 350px;
+    float: left;
+}
+
+.mini-contenido{
+    text-align: right;
+    float: left;
+    width: 580px;
+}
+
+.otro-contenido{
+    float: left;
+    text-align: right;
+    width: 140px;
+}
+
+.alinear{
+    text-align: left;
+}
+
+#contenido-formulario{
+    float: left;
+    width: 450px;
+    margin-left: 100px;
+}
+
+#Content2{
+    margin-left: 10px;
+}

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anonimo.master.cs" Inherits="Catalogo.Anonimo" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="abrigo_general">
+            <div id="contenido-izq">
+                <h2>Categorias</h2>
+
+                <%
+                    List<CapaEntidades.entCategoria> lista = CapaNegocios.negCategoria.ListarCategorias();
+                    if (lista != null)
+                    {
+                        foreach(CapaEntidades.entCategoria obj in lista)
+                        {
+                            hplcategoria.Text = obj.Descripcion;
+                            hplcategoria.NavigateUrl = "formPrincipal.aspx?cat=" + obj.IdCategoria;
+                %>
+
+                <div class="etiqueta">
+                    <asp:HyperLink ID="hplcategoria" runat="server"></asp:HyperLink>
+                </div>
+
+                <%
+
+                        }
+                    }
+                %>
+            </div>
+            <div id="contenido-der">
+            <div>
+                <div class="mini-contenido">Nombre Usuario:
+                    <asp:Label ID="nombreUsuario" runat="server" Text=""></asp:Label>
+                </div>
+                <div class="otro-contenido">
+                    <asp:LinkButton ID="lbtlogout" runat="server" OnClick="lbtlogout_Click">Salir</asp:LinkButton>
+                </div>
+            </div>            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
