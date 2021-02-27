@@ -35,9 +35,5 @@ namespace Catalogo
             Response.Redirect("formAgregarCategoria.aspx");
         }
 
-        protected void btnModificarCategorias_Click(object sender, EventArgs e)
-        {
-        
-        }
     }
 }

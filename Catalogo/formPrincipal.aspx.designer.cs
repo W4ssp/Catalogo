@@ -33,15 +33,6 @@ namespace Catalogo
         protected global::System.Web.UI.WebControls.Button btnAgregarCategoria;
 
         /// <summary>
-        /// Control btnModificarCategorias.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnModificarCategorias;
-
-        /// <summary>
         /// Control grvProductos.
         /// </summary>
         /// <remarks>
@@ -49,14 +40,5 @@ namespace Catalogo
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grvProductos;
-
-        /// <summary>
-        /// Control grvCategorias.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grvCategorias;
     }
 }
